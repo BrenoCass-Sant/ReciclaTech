@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sansation", sans-serif;
+  background-color: #ffffff;
+}
+
+.cabecalho-pagina {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vh;
+  padding-left: 8vh;
+  padding-right: 8vh;
+  border-bottom: 1px solid rgb(180, 174, 174);
+}
+.cabecalho-pagina .cabecalho-pagina-div {
+  display: flex;
+}
+.cabecalho-pagina .cabecalho-navegacao-setores {
+  padding: 3vh;
+}
+.cabecalho-pagina .cabecalho-botao-comecar {
+  width: 8vw;
+  height: 6vh;
+  background-color: rgb(22, 163, 74);
+  color: #ffffff;
+  border-radius: 0.5vh;
+  border: solid, 1px, rgb(22, 163, 74);
+  font-family: "Sansation", sans-serif;
+  font-weight: 600;
+}
+
+.trecho-slogan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15vh;
+}
+.trecho-slogan .slogan-conteudo-h2 {
+  margin-bottom: 3vh;
+  font-size: 6vh;
+  width: 50vw;
+}
+.trecho-slogan .slogan-conteudo-p {
+  margin-bottom: 3vh;
+  font-size: 2.5vh;
+  color: rgb(75, 85, 99);
+  font-weight: 400;
+  width: 50vw;
+}
+.trecho-slogan .slogan-conteudo-botao-doar {
+  width: 12vw;
+  height: 6vh;
+  background-color: rgb(22, 163, 74);
+  margin-right: 5vh;
+  border-radius: 0.5vh;
+  border: solid, 1px, rgb(22, 163, 74);
+}
+.trecho-slogan .slogan-conteudo-botao-adquirir {
+  width: 12vw;
+  height: 6vh;
+  margin-right: 5vh;
+  border-radius: 0.5vh;
+  border: solid, 1px, rgb(37, 99, 235);
+}
+
+.trecho-numeros {
+  background-color: rgb(243, 245, 248);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+}
+.trecho-numeros .trecho-numeros-div {
+  text-align: center;
+}
+.trecho-numeros .trecho-numeros-div-h3 {
+  color: rgb(22, 163, 74);
+  font-weight: 700;
+  font-size: 3.5vh;
+}
+
+.trecho-funcionamento {
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  margin: 15vh;
+}
+.trecho-funcionamento .trecho-funcionamento-h3 {
+  font-size: 5vh;
+}
+.trecho-funcionamento .trecho-funcionamento-p {
+  font-size: 3vh;
+  margin-top: 4vh;
+  margin-bottom: 5vh;
+}
+.trecho-funcionamento .funcionamento-doadores-adquirintes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.trecho-funcionamento .funcionamento-doadores-adquirintes .funcionamento-div {
+  background-color: rgb(243, 245, 248);
+  border-radius: 2vh;
+  width: 30vw;
+  height: 50vh;
+  margin: 5vh;
+  padding: 5vh;
+}
+.trecho-funcionamento .funcionamento-doadores-adquirintes .funcionamento-div .funcionamento-div-p {
+  margin: 2vh;
+  font-size: 1.6vh;
+}
+.trecho-funcionamento .funcionamento-doadores-adquirintes .funcionamento-div .funcionamento-div-lista {
+  margin: 4vh;
+  font-size: 1.6vh;
+  list-style-type: none;
+}
+.trecho-funcionamento .funcionamento-doadores-adquirintes .funcionamento-div .funcionamento-div-lista .funcionamento-div-item-lista {
+  margin: 2vh;
+}
+.trecho-funcionamento .funcionamento-doadores-adquirintes .funcionamento-div .funcionamento-div-lista .funcionamento-div-li-img {
+  padding: 0.3vh;
+}
+
+.trecho-produtos {
+  background-color: rgb(243, 245, 248);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.trecho-produtos .produtos-h3 {
+  font-size: 5vh;
+  padding-left: 15vh;
+}
+.trecho-produtos .produtos-p {
+  font-size: 3vh;
+  margin-top: 4vh;
+  margin-bottom: 5vh;
+  padding-left: 15vh;
+  color: rgb(75, 85, 99);
+}
+.trecho-produtos .produtos-categorias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trecho-produtos .produtos-categorias .produtos-categorias-div {
+  display: flex;
+  flex-direction: column;
+  margin: 5vh;
+  height: 45vh;
+  width: 16vw;
+  border: solid, #2c852c;
+  border-radius: 1vh;
+  align-items: center;
+}
+.trecho-produtos .produtos-categorias .produtos-categorias-div .produtos-categorias-div-img {
+  margin-bottom: 2vh;
+}
+.trecho-produtos .produtos-categorias .produtos-categorias-div .produtos-categorias-div-p {
+  padding: 2vh;
+  margin-bottom: 1vh;
+}
+.trecho-produtos .produtos-categorias .produtos-categorias-div .produtos-categorias-div-botao {
+  width: 8vw;
+  height: 5vh;
+  border-radius: 0.5vh;
+  background-color: rgb(22, 163, 74);
+  color: white;
+  border: solid, 1px, #2c852c;
+  font-family: "Sansation", sans-serif;
+  font-weight: 600;
+}
+
+.trecho-comentarios {
+  display: flex;
+  flex-direction: column;
+}
+.trecho-comentarios .trecho-comentarios-h3 {
+  font-size: 5vh;
+  margin-left: 15vh;
+  margin-top: 5vh;
+}
+.trecho-comentarios .trecho-comentarios-p {
+  font-size: 3vh;
+  margin-top: 4vh;
+  margin-bottom: 5vh;
+  margin-left: 15vh;
+  color: rgb(75, 85, 99);
+}
+.trecho-comentarios .comentarios-usuarios {
+  display: flex;
+  flex-direction: row;
+}
+.trecho-comentarios .comentarios-usuarios .comentarios-usuarios-div {
+  border: solid;
+  border-width: 1px 1px 1px 4px;
+  border-style: solid;
+  border-color: rgb(156, 163, 175);
+  border-radius: 1.5vh;
+  width: 25vw;
+  height: 35vh;
+  margin: 5vh;
+  padding: 2.5vh;
+}
+.trecho-comentarios .comentarios-usuarios .comentarios-usuarios-div .comentarios-usuarios-div-star-img {
+  margin-bottom: 1vh;
+}
+
+.trecho-diferenca {
+  background-color: rgb(243, 245, 248);
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trecho-diferenca .trecho-diferenca-h3 {
+  font-size: 5vh;
+  padding: 3vh;
+}
+.trecho-diferenca .trecho-diferenca-p {
+  font-size: 3vh;
+  color: rgb(75, 85, 99);
+  width: 40vw;
+}
+.trecho-diferenca .trecho-diferenca-div {
+  margin: 6vh;
+}
+.trecho-diferenca .trecho-diferenca-div .trecho-diferenca-div-button-comecar {
+  margin-right: 3vh;
+  padding: 1vh;
+  width: 9vw;
+  height: 5vh;
+  background-color: rgb(22, 163, 74);
+  color: #ffffff;
+  border-radius: 0.5vh;
+  border: solid, 1px, rgb(22, 163, 74);
+  font-family: "Sansation", sans-serif;
+  font-size: 1.7vh;
+}
+.trecho-diferenca .trecho-diferenca-div .trecho-diferenca-div-button-saber {
+  padding: 1vh;
+  width: 9vw;
+  height: 5vh;
+  background-color: #ffffff;
+  color: rgb(22, 163, 74);
+  border-radius: 0.5vh;
+  border: solid, 1px, rgb(22, 163, 74);
+  font-family: "Sansation", sans-serif;
+  font-weight: 600;
+  font-size: 1.7vh;
+}
+
+footer {
+  height: 22vh;
+  background-color: rgb(31, 41, 55);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 0.3px solid rgb(180, 174, 174);
+}
+footer .footer-trecho-logo {
+  margin: 3vh;
+  width: 20vw;
+}
+footer .footer-trecho-logo .footer-trecho-logo-img {
+  margin-bottom: 2vh;
+}
+footer .footer-trecho-logo .footer-trecho-logo-p {
+  color: rgb(137, 146, 158);
+}
+footer .footer-trecho-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 3.5vh;
+  margin: 3vh;
+}
+footer .footer-trecho-links .footer-trecho-links-a {
+  color: rgb(137, 146, 158);
+  text-decoration: none;
+}
+footer .footer-trecho-suporte {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 3.5vh;
+  margin: 3vh;
+}
+footer .footer-trecho-suporte .footer-trecho-suporte-a {
+  color: rgb(137, 146, 158);
+  text-decoration: none;
+}
+footer .footer-trecho-redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 3.5vh;
+  margin: 3vh;
+  height: 15vh;
+  width: 20vw;
+}
+footer .footer-trecho-redes .footer-trecho-redes-p {
+  color: rgb(137, 146, 158);
+}
+
+.footer-trecho-p {
+  height: 6vh;
+  background-color: rgb(31, 41, 55);
+  color: rgb(137, 146, 158);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
