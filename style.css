@@ -12,14 +12,18 @@ body {
 .cabecalho-pagina {
   display: flex;
   justify-content: space-between;
+  align-content: center;
+  width: 95%;
   align-items: center;
   padding: 4vh;
   padding-left: 8vh;
   padding-right: 8vh;
   border-bottom: 1px solid rgb(180, 174, 174);
+  margin-left: 4.5vh;
 }
 .cabecalho-pagina .cabecalho-pagina-div {
   display: flex;
+  align-items: center;
 }
 .cabecalho-pagina .cabecalho-navegacao-setores {
   padding: 3vh;
@@ -33,6 +37,8 @@ body {
   border: solid, 1px, rgb(22, 163, 74);
   font-family: "Sansation", sans-serif;
   font-weight: 600;
+  font-size: 1.5vh;
+  margin-top: 0.7vh;
 }
 
 .trecho-slogan {
@@ -124,7 +130,26 @@ body {
 .trecho-funcionamento .funcionamento-doadores-adquirintes .funcionamento-div .funcionamento-div-lista .funcionamento-div-item-lista {
   margin: 2vh;
 }
-.trecho-funcionamento .funcionamento-doadores-adquirintes .funcionamento-div .funcionamento-div-lista .funcionamento-div-li-img {
+.trecho-funcionamento .funcionamento-doadores-adquirintes .funcionamento-div .funcionamento-div-lista .funcionamento-div-item-lista .alinhador {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  width: 20vw;
+}
+.trecho-funcionamento .funcionamento-doadores-adquirintes .funcionamento-div .funcionamento-div-lista .funcionamento-div-item-lista .alinhador img {
+  margin-right: 1vh;
+}
+.trecho-funcionamento .funcionamento-doadores-adquirintes .funcionamento-div .funcionamento-div-lista .funcionamento-div-item-lista .alinhador .funcionamento-div-item-lista-span {
+  font-size: 4vh;
+}
+.trecho-funcionamento .funcionamento-doadores-adquirintes .funcionamento-div .funcionamento-div-lista .funcionamento-div-item-lista .alinhador .funcionamento-div-item-lista-span strong {
+  font-size: 1.5vh;
+}
+.trecho-funcionamento .funcionamento-doadores-adquirintes .funcionamento-div .funcionamento-div-lista .funcionamento-div-item-lista .alinhador .funcionamento-div-item-lista-span p {
+  font-size: 1.4vh;
+}
+.trecho-funcionamento .funcionamento-doadores-adquirintes .funcionamento-div .funcionamento-div-li-img {
   padding: 0.3vh;
 }
 
@@ -163,6 +188,7 @@ body {
 }
 .trecho-produtos .produtos-categorias .produtos-categorias-div .produtos-categorias-div-img {
   margin-bottom: 2vh;
+  width: 15.7vw;
 }
 .trecho-produtos .produtos-categorias .produtos-categorias-div .produtos-categorias-div-p {
   padding: 2vh;
@@ -198,20 +224,50 @@ body {
 .trecho-comentarios .comentarios-usuarios {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .trecho-comentarios .comentarios-usuarios .comentarios-usuarios-div {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
   border: solid;
   border-width: 1px 1px 1px 4px;
   border-style: solid;
   border-color: rgb(156, 163, 175);
   border-radius: 1.5vh;
   width: 25vw;
-  height: 35vh;
+  height: 40vh;
   margin: 5vh;
   padding: 2.5vh;
 }
 .trecho-comentarios .comentarios-usuarios .comentarios-usuarios-div .comentarios-usuarios-div-star-img {
+  margin: 2vh;
+  margin-bottom: 0;
+  width: 15vh;
+}
+.trecho-comentarios .comentarios-usuarios .comentarios-usuarios-div .comentarios-usuarios-div-p {
+  color: rgb(75, 85, 99);
+  font-size: 2.5vh;
+  margin: 2vh;
+}
+.trecho-comentarios .comentarios-usuarios .comentarios-usuarios-div .alinhador {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  align-content: end;
   margin-bottom: 1vh;
+  margin-left: 2vh;
+  width: 20vw;
+}
+.trecho-comentarios .comentarios-usuarios .comentarios-usuarios-div .alinhador img {
+  margin: 0;
+  margin-right: 1vh;
+  width: 2.5vw;
+}
+.trecho-comentarios .comentarios-usuarios .comentarios-usuarios-div .alinhador p {
+  padding: 0;
 }
 
 .trecho-diferenca {
@@ -265,7 +321,7 @@ footer {
   color: #ffffff;
   display: flex;
   justify-content: space-around;
-  border-bottom: 0.3px solid rgb(180, 174, 174);
+  border-bottom: 0.3px solid rgb(71, 67, 67);
 }
 footer .footer-trecho-logo {
   margin: 3vh;
